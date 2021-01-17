@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b0b0ec"
+    android:padding="16dp">
+
+    <!-- task text fill in, task text location, task text -->
+    <EditText
+        android:id="@+id/edit_task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the task" />
+    <EditText
+        android:id="@+id/edit_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edit_task"
+        android:layout_alignParentStart="true"
+        android:hint="Enter the location"
+        android:layout_alignParentLeft="true" />
+
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/radiogroup_sticker"
+        android:layout_below="@id/edit_location">
+        <RadioButton android:id="@+id/radio_boba"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Boba" />
+        <RadioButton android:id="@+id/radio_peach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peach" />
+        <RadioButton android:id="@+id/radio_panda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Panda" />
+        <RadioButton android:id="@+id/radio_sushi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sushi" />
+
+    </RadioGroup>
+
+</RelativeLayout>
