@@ -1,2 +1,2 @@
-# MedHack
-A Repository made for MedHack 
+# Wise Elderly
+Wise Elderly is designed to help the elderly have a better lifestyle.
